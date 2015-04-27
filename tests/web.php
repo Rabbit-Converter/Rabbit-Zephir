@@ -1,7 +1,5 @@
 <?php
 
-require __DIR__.'/../vendor/autoload.php';
-
 $sampleStrings = json_decode(file_get_contents(__DIR__.'/sample.json'), true);
 
 echo '<h3>Zawgyi to Unicode</h3>';
